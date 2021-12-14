@@ -64,6 +64,9 @@ body {
     text-align: center;
     font-size: 20px;
 }
+img {
+    text-align: center;
+  }
 #container h1 {
     text-align: center;
     color: #0cac1c;
