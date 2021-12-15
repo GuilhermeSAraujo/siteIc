@@ -70,7 +70,7 @@
             assuntos que dominnamos.
         </p>
     </div>
-
+    <button id="back-to-top">Voltar ao topo</button>
     <main>
         <div id="container">
             <h1 id="#html">HTML</h1>
@@ -156,6 +156,12 @@
         crossorigin="anonymous"></script>
     <script src="../template_default/js/default.js"></script>
     <script src="Codigo/prehome/prehome.js"></script>
+    <script type="text/javascript">
+        var btn = document.querySelector("#back-to-top");
+        btn.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        });
+    </script>
 </body>
 
 </html>
